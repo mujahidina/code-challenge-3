@@ -53,15 +53,15 @@ class TestCustomer:
         # with pytest.raises(Exception):
         #     Customer('', 'Lastname')
 
-        # uncomment the next two lines if using Exceptions
+        #uncomment the next two lines if using Exceptions
         # with pytest.raises(Exception):
         #     Customer('Firstname', '')
 
-        # uncomment the next two lines if using Exceptions
+        #uncomment the next two lines if using Exceptions
         # with pytest.raises(Exception):
         #     Customer('F' * 26, 'Lastname')
 
-        # uncomment the next two lines if using Exceptions
+        #uncomment the next two lines if using Exceptions
         # with pytest.raises(Exception):
         #     Customer('Firstname', 'L' * 26)
 

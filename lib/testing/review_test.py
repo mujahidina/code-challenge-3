@@ -71,7 +71,7 @@ class TestReview:
         review_2 = Review(customer_1, restaurant, 5)
 
         # comment out next line if using Exceptions
-        review_1.customer = "Casper"
+        # review_1.customer = "Casper"
 
         assert isinstance(review_1.customer, Customer)
         assert isinstance(review_2.customer, Customer)
